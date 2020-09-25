@@ -69,14 +69,6 @@ class _StartScreenState extends State<StartScreen> {
                     icon: LineIcons.globe,
                     text: 'Global',
                   ),
-                  GButton(
-                    icon: LineIcons.rocket,
-                    text: 'India',
-                  ),
-                  GButton(
-                    icon: LineIcons.pie_chart,
-                    text: 'IN States',
-                  ),
                 ],
                 selectedIndex: _selectedIndex,
                 onTabChange: (index) {

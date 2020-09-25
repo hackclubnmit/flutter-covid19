@@ -89,7 +89,7 @@ class _OverviewState extends State<Overview> {
                             ),
                             Row(
                               children: <Widget>[
-                                colorCard("Total Recoverd", pointer.recoverd,
+                                colorCard("Total Recovered", pointer.recoverd,
                                     context, Color(0xFF475c78))
                               ],
                             ),
@@ -118,7 +118,7 @@ class _OverviewState extends State<Overview> {
                                 Color(0xFF765d69)),
                             vaweCard(
                               context,
-                              "in Mild Condition",
+                              "Mildly Infected",
                               pointer.coronaMild,
                               pointer.coronaCurrent,
                               Colors.greenAccent,
@@ -133,43 +133,6 @@ class _OverviewState extends State<Overview> {
                                 Color(0xFF765d69)),
                             SizedBox(
                               height: 20,
-                            ),
-                            Text(
-                              "CLOSED CASES",
-                              style: TextStyle(
-                                fontSize: 24,
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                inherit: true,
-                                letterSpacing: 0.4,
-                              ),
-                            ),
-                            SizedBox(
-                              height: 10,
-                            ),
-                            vaweCard(
-                              context,
-                              "Cases which had an outcome",
-                              pointer.coronaClose,
-                              pointer.coronaClose,
-                              Colors.grey.shade100,
-                              Color(0xFF716cff),
-                            ),
-                            vaweCard(
-                              context,
-                              "Recovered / Discharged",
-                              pointer.coronaDischarged,
-                              pointer.coronaClose,
-                              Colors.grey.shade100,
-                              Color(0xFFff596b),
-                            ),
-                            vaweCard(
-                              context,
-                              "Deaths",
-                              pointer.coronaDeaths,
-                              pointer.coronaClose,
-                              Colors.grey.shade100,
-                              Color(0xFFff596b),
                             ),
                           ],
                         ),
@@ -215,7 +178,7 @@ class _OverviewState extends State<Overview> {
               Text(
                 "${x.toString()}",
                 style:
-                    TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
+                TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
               ),
             ],
           ),
@@ -229,7 +192,7 @@ class _OverviewState extends State<Overview> {
               Text(
                 name,
                 style:
-                    TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),
+                TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),
               ),
               SizedBox(
                 height: 8,

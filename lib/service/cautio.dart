@@ -35,11 +35,11 @@ class _CautionsState extends State<Cautions> {
           firstGradient,
           "Clean your hands often"),
       buildSwiperItem(
-          "assests/wash.png",
-          "use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry.",
-          Color(0xFFffcc00),
-          secondtGradient,
-          "Avoid close contact"),
+        "assests/wash.png",
+        "Central",
+        Color(0xFFffcc00),
+        secondtGradient,
+        "+91-11-23978046"),
       buildSwiperItem(
           "assests/home.png",
           "Stay home if you are sick, except to get medical care.",

@@ -38,7 +38,7 @@ class Coronad extends StatelessWidget {
                   ),
                   Row(
                     children: <Widget>[
-                      colorCard("Total Recoverd", corona.totalRecoverd, context,
+                      colorCard("Total Recovered", corona.totalRecoverd, context,
                           Color(0xFF475c78)),
                       colorCard("Active Cases", corona.activeCases, context,
                           Color(0xFFff3f5e)),

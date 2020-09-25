@@ -75,8 +75,8 @@ class Contact extends StatelessWidget {
             SizedBox(height: 10),
             vaweCard(
               context,
-              "Central",
-              "+91-11-23978046",
+              "use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry.",
+              "Avoid close contact",
               Colors.grey.shade100,
               Color(0xFF3CB371),
             ),
