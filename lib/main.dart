@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'service/service_locator.dart';
 import 'ui/globalStats.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:covd19/ui/indiascreen.dart';
 import 'package:line_icons/line_icons.dart';
 import 'ui/statewidescreen.dart';
 
@@ -31,8 +30,6 @@ class _StartScreenState extends State<StartScreen> {
     Welcome(),
     Overview(),
     Worldlist(),
-    IndiaScreen(),
-    StateScreen()
   ];
 
   @override
