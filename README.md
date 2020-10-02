@@ -1,5 +1,9 @@
 # Covid19 Dashboard
 
+![](assests/Screenshot_1585030797.png)
+![](assests/covidDashboardLarge.PNG)
+![](assests/Screenshot_1585030841.png)
+
 ## Below are the issues that need to be fixed
 
 - 1st task: Swap central helpline and second precaution.
