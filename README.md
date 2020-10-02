@@ -1,8 +1,8 @@
 # Covid19 Dashboard
 
-![](assests/Screenshot_1585030797.png)
-![](assests/covidDashboardLarge.PNG)
-![](assests/Screenshot_1585030841.png)
+![](assests/Screenshot_1585030797Small.png)
+![](assests/covidDashboard.PNG)
+![](assests/Screenshot_1585030841Small.png)
 
 ## Below are the issues that need to be fixed
 
