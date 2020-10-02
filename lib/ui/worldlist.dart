@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:covd19/ui/colors.dart';
-import 'package:covd19/ui/sceensize.dart';
+import 'package:covd19/ui/screensize.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:covd19/service/Apimode.dart';

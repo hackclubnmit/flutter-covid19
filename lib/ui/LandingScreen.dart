@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:covd19/service/cautio.dart';
-import 'package:covd19/ui/sceensize.dart';
-
+import 'package:covd19/ui/screensize.dart';
 import 'package:covd19/ui/helpline.dart';
 import 'package:covd19/ui/colors.dart';
 
@@ -72,7 +71,7 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
                 ),
                 Center(
                   child: Text(
-                    'Heal-Up',
+                    'Covid Dashboard',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 38,

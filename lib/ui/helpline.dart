@@ -1,6 +1,6 @@
 import 'package:covd19/ui/colors.dart';
 import 'package:flutter/material.dart';
-import 'sceensize.dart';
+import 'screensize.dart';
 import 'package:covd19/charts/wave_progress.dart';
 import 'package:covd19/service/service_locator.dart';
 import 'package:covd19/service/call_service.dart';

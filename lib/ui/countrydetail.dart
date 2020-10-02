@@ -1,7 +1,7 @@
 import 'package:covd19/service/Apimode.dart';
 import 'package:covd19/ui/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:covd19/ui/sceensize.dart';
+import 'package:covd19/ui/screensize.dart';
 
 class Coronad extends StatelessWidget {
   final Corona corona;

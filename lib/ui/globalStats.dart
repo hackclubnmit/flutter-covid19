@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'sceensize.dart';
+import 'screensize.dart';
 import 'dart:convert';
 import 'package:covd19/charts/wave_progress.dart';
 import 'package:http/http.dart' as http;

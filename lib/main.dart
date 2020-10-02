@@ -6,7 +6,6 @@ import 'service/service_locator.dart';
 import 'ui/globalStats.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:line_icons/line_icons.dart';
-import 'ui/statewidescreen.dart';
 
 void main() {
   setupLocator();
