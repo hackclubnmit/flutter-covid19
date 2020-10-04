@@ -2,6 +2,11 @@
 
 ![](assests/Screenshot_1585030797Small.png)
 ![](assests/Screenshot_1585030841Small.png)
+# Updated Screenshots
+![](assests/Updated_landingscreenimg.jpeg)
+![](assests/Updated_Precautions.jpeg)
+![](assests/helpline.jpeg)
+
 
 ## Below are the issues that need to be fixed
 
