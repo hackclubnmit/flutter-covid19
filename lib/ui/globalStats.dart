@@ -131,6 +131,20 @@ class _OverviewState extends State<Overview> {
                                 pointer.coronaCurrent,
                                 Colors.grey.shade100,
                                 Color(0xFF765d69)),
+                            vaweCard(
+                                context,
+                                "Recovered/Discharged",
+                                pointer.recoverd,
+                                pointer.coronaCurrent,
+                                Colors.grey.shade100,
+                                Color(0xFF475c78)),
+                            vaweCard(
+                                context,
+                                "Deaths",
+                                pointer.coronaDeaths,
+                                pointer.coronaCurrent,
+                                Colors.grey.shade100,
+                                Color(0xFFab6ca2)),
                             SizedBox(
                               height: 20,
                             ),
@@ -178,7 +192,7 @@ class _OverviewState extends State<Overview> {
               Text(
                 "${x.toString()}",
                 style:
-                TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
+                    TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
               ),
             ],
           ),
@@ -192,7 +206,7 @@ class _OverviewState extends State<Overview> {
               Text(
                 name,
                 style:
-                TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),
+                    TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),
               ),
               SizedBox(
                 height: 8,
