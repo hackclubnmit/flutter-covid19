@@ -2,14 +2,12 @@ import 'package:covd19/ui/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 
-
 class Cautions extends StatefulWidget {
   @override
   _CautionsState createState() => _CautionsState();
 }
 
 class _CautionsState extends State<Cautions> {
-
   SwiperController _swiperController;
   double prevOpacity = 1.0;
 
@@ -35,11 +33,11 @@ class _CautionsState extends State<Cautions> {
           firstGradient,
           "Clean your hands often"),
       buildSwiperItem(
-        "assests/wash.png",
-        "Central",
-        Color(0xFFffcc00),
-        secondtGradient,
-        "+91-11-23978046"),
+          "assests/wash.png",
+          "Use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry.",
+          Color(0xFFffcc00),
+          secondtGradient,
+          "Use hand sanitizers"),
       buildSwiperItem(
           "assests/home.png",
           "Stay home if you are sick, except to get medical care.",

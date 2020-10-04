@@ -61,7 +61,7 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
                   offset: virusBounce.value,
                   child: Image(
                     alignment: Alignment.centerRight,
-                    image: AssetImage("assests/sneeze.png"),
+                    image: AssetImage("assests/corona.png"),
                     height: screenAwareSize(190, context),
                     width: screenAwareSize(400, context),
                   ),
